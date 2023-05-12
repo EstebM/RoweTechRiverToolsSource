@@ -1,0 +1,3054 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="buttonDeploySaveText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeploySaveText.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployADCPSN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployADCPSN.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeploy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeploy.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployClearText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployClearText.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployADCPTimeOut.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployADCPTimeOut.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox38.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox38.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesFormatOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesFormatOK.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployFormatSD.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployFormatSD.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesStartADCPok.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesStartADCPok.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesZeroPsensOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesZeroPsensOK.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesStartTimeOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesStartTimeOK.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesReadTimeOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesReadTimeOK.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesSetTimeOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesSetTimeOK.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesConfigOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesConfigOK.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployStartTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployStartTime.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTFP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTFP.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonDeployADCPLocalTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonDeployADCPLocalTime.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployZeroPressure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployZeroPressure.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonDeployADCPGMT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonDeployADCPGMT.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployStartADCP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployStartADCP.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployCheckTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployCheckTime.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeploySetTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeploySetTime.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployCheckTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployCheckTime.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployUploadCommands.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployUploadCommands.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox32.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployWattHours1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployWattHours1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBurstTime1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBurstTime1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBursts1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBursts1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployFirstBinRange1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployFirstBinRange1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployProfileRange1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployProfileRange1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployVelocitySD1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployVelocitySD1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployMaxVel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployMaxVel1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployRecordMbytes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployRecordMbytes.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployWattHours0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployWattHours0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label34.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label30.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployVelocitySD0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployVelocitySD0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployFirstBinRange0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployFirstBinRange0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label33.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployProfileRange0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployProfileRange0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployMaxVel0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployMaxVel0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label23.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBurstTime0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBurstTime0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label17.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label31.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBursts0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBursts0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployPrediction.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployPrediction.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label32.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployDays.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployDays.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox30.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxDeployWaveRT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxDeployWaveRT.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployPings1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployPings1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBins1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBins1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployLag1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployLag1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBinSize1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBinSize1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBlank1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBlank1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDeployPings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDeployPings.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployPings0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployPings0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBins0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBins0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDeployBins.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDeployBins.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDeployBlank.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDeployBlank.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDeployBinSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDeployBinSize.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDeployPlanLag.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDeployPlanLag.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBlank0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBlank0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployLag0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployLag0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBinSize0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBinSize0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox25.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label42.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label42.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label41.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label41.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBESS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBESS.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBEMM.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBEMM.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label40.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label40.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBPSS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBPSS.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBPMM.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBPMM.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label39.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label39.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label38.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label38.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBEHH.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBEHH.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBPHH.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployTBPHH.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label22.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeploySampleRate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeploySampleRate.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBurstSamples.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBurstSamples.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBurstInterval.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployBurstInterval.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox24.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox35.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeploySubSystemNumber2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeploySubSystemNumber2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label29.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label27.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label26.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDeployDataOutput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDeployDataOutput.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDeployBurstRecording.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDeployBurstRecording.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeploySubSystemNumber1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeploySubSystemNumber1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesWakeupOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWavesWakeupOK.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDeploySubSystemType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDeploySubSystemType.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label25.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label24.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployGetADCPType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployGetADCPType.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox31.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label36.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label36.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label35.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployLon.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployLon.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployLat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployLat.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label19.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployWaterDepth.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployWaterDepth.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployPsensHeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployPsensHeight.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label18.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label20.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployWaterTemperature.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeployWaterTemperature.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeploySalinity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDeploySalinity.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label21.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox33.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeploySaveConfigurationFile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeploySaveConfigurationFile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxDeployWavesBurst.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxDeployWavesBurst.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployOpenConfigurationFile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeployOpenConfigurationFile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeploySetDefault.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDeploySetDefault.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox29.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabDeploy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabDeploy.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDownloadSeconds.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDownloadSeconds.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label49.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label49.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDownloadBytes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDownloadBytes.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label48.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label48.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDownloadTries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDownloadTries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label43.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label43.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDownloadRetries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDownloadRetries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonAllDownLoad.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonAllDownLoad.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWaveRecordDownLoad.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWaveRecordDownLoad.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonBurstDownLoad.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonBurstDownLoad.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonProfileDownLoad.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonProfileDownLoad.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox7.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesRecoverDir.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesRecoverDir.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesRecoverDownload.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesRecoverDownload.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesRecoverDownloadCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesRecoverDownloadCancel.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox34.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesRecoverDownload.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesRecoverDownload.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesRecover.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesRecover.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightBeamVertical.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightBeamVertical.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightBeam3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightBeam3.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightBeam2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightBeam2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightBeam1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightBeam1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightBeam0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightBeam0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox48.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox48.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesPressureOffset.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesPressureOffset.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label16.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesCorrelationThreshold.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesCorrelationThreshold.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesFilesN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesFilesN.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label14.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesFileInc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesFileInc.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesBin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesBin.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesExtractAll.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesExtractAll.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox28.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabRecover.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabRecover.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonExtractADCP0raw.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonExtractADCP0raw.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox50.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox50.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label44.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label44.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxExtractMatlabSubSys.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxExtractMatlabSubSys.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonExtractMatlab.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonExtractMatlab.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox41.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox41.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label45.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label45.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxExtractSeriesSubSys.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxExtractSeriesSubSys.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonExtractSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonExtractSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox43.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox43.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonExtractProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonExtractProfile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxExtractProfileEnsembleNumber.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxExtractProfileEnsembleNumber.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox42.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox42.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox40.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox40.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxExtract.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxExtract.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageExtract.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageExtract.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightSensorPressure.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightSensorPressure.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightSensorBeam.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHeightSensorBeam.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox49.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox49.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesExport.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesExport.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesBands.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesBands.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesMinHeight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesMinHeight.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesMaxScaleFactor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesMaxScaleFactor.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesMinFreq.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesMinFreq.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox39.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox39.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesRecordNumber.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesRecordNumber.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesRecordPlus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesRecordPlus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesCalcRecord.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesCalcRecord.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesRecordMinus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesRecordMinus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox26.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesSenSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesSenSet.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesVelSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesVelSet.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButton4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButton4.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesFFT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesFFT.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesFrequencySpectrum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesFrequencySpectrum.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesWavSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesWavSet.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonRawSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonRawSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesPeriodSpectrum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWavesPeriodSpectrum.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxWavesPlot.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxWavesPlot.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesSelectFile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWavesSelectFile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox27.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBoxWaves.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBoxWaves.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesProc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxWavesProc.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabWavesProcess.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabWavesProcess.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxBTNAVshowalways.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxBTNAVshowalways.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEnsembleSubPlus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEnsembleSubPlus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEnsembleSubMinus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEnsembleSubMinus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEnsembleSub.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEnsembleSub.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox36.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox36.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonStatisticsSD.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonStatisticsSD.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonStatisticsAVG.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonStatisticsAVG.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonStatisticsNone.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonStatisticsNone.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonStatisticsClear.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonStatisticsClear.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label37.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label37.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxProfStatPeaks.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxProfStatPeaks.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox23.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonBinMinus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonBinMinus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxFirstBin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxFirstBin.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonBinPlus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonBinPlus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox22.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCoordinate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCoordinate.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox10.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonProfileDisplayBottomTrack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonProfileDisplayBottomTrack.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonProfileDisplayText.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonProfileDisplayText.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonProfileDisplayGraph.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonProfileDisplayGraph.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox21.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonBTnavBinMinus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonBTnavBinMinus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonBTnavBinPlus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonBTnavBinPlus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxBTNavBin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxBTNavBin.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSTOP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSTOP.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSTART.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSTART.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonBreak.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonBreak.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSleep.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSleep.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox8.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStop.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStop.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStepBack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStepBack.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPLAYBACK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPLAYBACK.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackPause.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackPause.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStep.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStep.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlayBackGo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlayBackGo.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxPlayback.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxPlayback.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonMinusProfileScale.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonMinusProfileScale.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlusProfileScale.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlusProfileScale.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBoxProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBoxProfile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxProfile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageView.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesSubPlus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesSubPlus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesSubMinus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesSubMinus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxSeriesSub.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxSeriesSub.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox47.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox47.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDataSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDataSize.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEnsembleErrorStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEnsembleErrorStatus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxMinEnsembleDelta.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxMinEnsembleDelta.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxMaxEnsembleDelta.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxMaxEnsembleDelta.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxMinEnsembleSkip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxMinEnsembleSkip.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxMaxEnsembleSkip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxMaxEnsembleSkip.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox46.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox46.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStopSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStopSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStepBackSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStepBackSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackPauseSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackPauseSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStepSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStepSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackGoSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackGoSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxPlaybackSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxPlaybackSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonCoordENU.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonCoordENU.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesCoordBeam.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesCoordBeam.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonCoordXYZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonCoordXYZ.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox15.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBTrange.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBTrange.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBTsnr.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBTsnr.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBTcor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBTcor.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBTvel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBTvel.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBTamp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBTamp.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox14.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButton1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButton1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButton2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButton2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButton3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButton3.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox13.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWPRT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonWPRT.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesAncillaryProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesAncillaryProfile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesAncillaryBT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesAncillaryBT.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesWT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesWT.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesProfile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesProfile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesBT.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox12.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesBinPlus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesBinPlus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesBinMinus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesBinMinus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxSeriesBin.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxSeriesBin.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesProfileCor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesProfileCor.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesProfileVel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesProfileVel.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesProfileAmp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSeriesProfileAmp.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox11.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonClearSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonClearSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesPlus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesPlus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesMinus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSeriesMinus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBoxSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBoxSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageSeries.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageSeries.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxNMEA_ASCII_Input.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxNMEA_ASCII_Input.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStopNMEA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStopNMEA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStepBackNMEA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStepBackNMEA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackNMEA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackNMEA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackPauseNMEA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackPauseNMEA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStepNMEA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackStepNMEA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackGoNMEA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPlaybackGoNMEA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxPlaybackNMEA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxPlaybackNMEA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDecoded.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDecoded.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNavigation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNavigation.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxCapturedNMEA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxCapturedNMEA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageNMEA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageNMEA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIstandard270.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIstandard270.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIStandard0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIStandard0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIStandard90.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIStandard90.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonStandard180.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonStandard180.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox16.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button08taps.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button08taps.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button00taps.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button00taps.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button04taps.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button04taps.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox6.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIacqPolOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIacqPolOn.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIacqPolOff.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIacqPolOff.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox17.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox9.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxPNICal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxPNICal.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIstopCal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIstopCal.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIstartCal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIstartCal.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNItakeSample.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNItakeSample.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIfactoryCal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIfactoryCal.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox20.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIpowerUp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIpowerUp.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIPowerDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIPowerDown.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox19.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIintervalStart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIintervalStart.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIintevalStop.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIintevalStop.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIgetData.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIgetData.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxCompass.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxCompass.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox18.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxPNIacq.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxPNIacq.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIgetAcqParams.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIgetAcqParams.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIsaveCal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIsaveCal.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxPNIparam.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxPNIparam.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCompassDisableDecode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCompassDisableDecode.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCompassEnableDecode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCompassEnableDecode.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxCompassPassThru.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxCompassPassThru.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIParam.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIParam.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxPNIconfig.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxPNIconfig.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIconfig.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIconfig.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxPNIinfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxPNIinfo.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIgetModInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPNIgetModInfo.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageCompass.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageCompass.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLDataLength.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLDataLength.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLSN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLSN.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label52.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label52.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0system.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0system.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1system.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1system.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label69.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label69.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2system.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2system.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox56.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox56.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutputHertz.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutputHertz.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox57.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox57.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2SingAround.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2SingAround.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1SingAround.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1SingAround.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0SingAround.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0SingAround.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2MaxRange.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2MaxRange.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1MaxRange.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1MaxRange.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0MaxRange.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0MaxRange.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label54.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label54.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2LongRange.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2LongRange.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label55.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label55.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1LongRange.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1LongRange.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0LongRange.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0LongRange.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label61.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label61.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox53.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox53.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLdataRecord.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLdataRecord.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox58.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox58.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0Trigger.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0Trigger.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox60.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox60.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2WaterTrackBlank.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2WaterTrackBlank.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1WaterTrackBlank.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1WaterTrackBlank.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0WaterTrackBlank.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0WaterTrackBlank.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2WaterTrackBinSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL2WaterTrackBinSize.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1WaterTrackBinSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL1WaterTrackBinSize.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0WaterTrackBinSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL0WaterTrackBinSize.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label57.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label57.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label58.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label58.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox55.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox55.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox62.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox62.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label59.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label59.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutput422.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutput422.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL422baud.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL422baud.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox65.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox65.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutput485.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutput485.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL485baud.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL485baud.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox64.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox64.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutput232.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutput232.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL232baud.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVL232baud.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox63.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox63.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutputLink.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutputLink.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLPort.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLPort.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox61.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox61.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLMAC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLMAC.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLIP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLIP.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label60.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label60.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label56.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label56.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutputEthernet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDVLoutputEthernet.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox59.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox59.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox54.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox54.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxDVLsetup.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxDVLsetup.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLlogSave.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLlogSave.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLuserLog.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLuserLog.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxDVLcommunicationsLog.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxDVLcommunicationsLog.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLcommands.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxDVLcommands.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxDVLCommandFile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxDVLCommandFile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLCommandSave.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLCommandSave.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLCommandSend.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLCommandSend.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLcommandLoad.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLcommandLoad.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLstop.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLstop.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLgenerateCommands.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLgenerateCommands.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLstart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLstart.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSetDVLTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSetDVLTime.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLbreak.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLbreak.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLgetConfiguration.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonDVLgetConfiguration.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxDVLcontrol.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxDVLcontrol.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabDVL.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabDVL.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxCaptureStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxCaptureStatus.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCapture.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCapture.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox45.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox45.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxMergeFilesInc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxMergeFilesInc.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label28.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonMergeFiles.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonMergeFiles.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox44.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox44.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEMACpings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEMACpings.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEMACread.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEMACread.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEMACsend.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEMACsend.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox37.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox37.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCompass.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCompass.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTerminalSTOP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTerminalSTOP.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTerminalSTART.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTerminalSTART.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTerminalSetTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTerminalSetTime.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTerminalBREAK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTerminalBREAK.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTerminalSLEEP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTerminalSLEEP.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxADCPControl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxADCPControl.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEnsembleDownload.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonEnsembleDownload.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFileErase.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFileErase.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonXModemUpload.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonXModemUpload.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonXmodemCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonXmodemCancel.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonXModemDownload.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonXModemDownload.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxFile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxFile.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClear.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClear.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSerial.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSerial.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageTerminal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageTerminal.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonEthernet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonEthernet.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSerial.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonSerial.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox5.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEMACA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEMACA.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEMACD.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEMACD.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEMACB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEMACB.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEMACC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxEMACC.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox3.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listBoxAvailablePorts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listBoxAvailablePorts.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnScanForPorts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnScanForPorts.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDebugPort.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDebugPort.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCommsSetBaud.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCommsSetBaud.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxCommsManBaud.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxCommsManBaud.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listBoxBaud.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listBoxBaud.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageCommunications.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageCommunications.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label47.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label47.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label46.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label46.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPSbadSamples.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPSbadSamples.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPSgoodSamples.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPSgoodSamples.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPSnextStart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPSnextStart.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPSwaitforPD0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPSwaitforPD0.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPSWakeUp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPSWakeUp.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonNPSabort.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonNPSabort.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonNPSstart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonNPSstart.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxNPS.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabNPS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabNPS.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUserCommand.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtUserCommand.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSendCom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSendCom.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSendCom1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSendCom1.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip1" xml:space="preserve">
+    <value />
+  </data>
+</root>
